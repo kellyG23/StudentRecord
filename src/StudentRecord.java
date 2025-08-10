@@ -7,10 +7,11 @@ public class StudentRecord {
         LinkedList<String> studentList = new LinkedList<>();
 
         studentList.add("Kelly Gabot");
-        studentList.add("Jonald Rodulfo");
-        studentList.add("Cesar Jondiz");
-        studentList.add("Areisha Migrino");
-        studentList.add("Ash smth");
+        studentList.add("Jonela Rodulfo");
+        studentList.add("Cesar Jondiz III");
+        studentList.add("Areisha Julliana Migrino");
+        studentList.add("Aslama Cabugatan");
+        studentList.add("Haring Paul Edward Tablizo Malakas");
 
         System.out.println(studentList);
 
