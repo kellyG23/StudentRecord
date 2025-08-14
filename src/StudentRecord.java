@@ -19,6 +19,15 @@ public class StudentRecord {
         System.out.print("Enter Name: ");
         String search = sc.nextLine();
 
+//        for (int i = 0; i < studentList.size(); i++){
+//            if (studentList.get(i).equals(search)){
+//                System.out.println(studentList.get(i));
+//            }
+//            else {
+//                System.out.println("0");
+//            }
+//        }
+
         if (studentList.contains(search)) {
             System.out.println(search);
         }
