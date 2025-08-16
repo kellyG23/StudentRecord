@@ -1,10 +1,9 @@
-import java.util.LinkedList;
 import java.util.Scanner;
 
 public class StudentRecord {
 
     public static void main(String[] args) {
-        LinkedList<String> studentList = new LinkedList<>();
+        LinkedList studentList = new LinkedList();
 
         studentList.add("Kelly Gabot");
         studentList.add("Jonela Rodulfo");
@@ -13,26 +12,12 @@ public class StudentRecord {
         studentList.add("Aslama Cabugatan");
         studentList.add("Haring Paul Edward Tablizo Malakas");
 
-        System.out.println(studentList);
+//        studentList.read();
 
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in    );
         System.out.print("Enter Name: ");
         String search = sc.nextLine();
 
-//        for (int i = 0; i < studentList.size(); i++){
-//            if (studentList.get(i).equals(search)){
-//                System.out.println(studentList.get(i));
-//            }
-//            else {
-//                System.out.println("0");
-//            }
-//        }
-
-        if (studentList.contains(search)) {
-            System.out.println(search);
-        }
-        else {
-            System.out.println("Student not found");
-        }
+        studentList.search(search);
     }
 }
