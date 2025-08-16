@@ -5,16 +5,16 @@ public class StudentRecord {
     public static void main(String[] args) {
         LinkedList studentList = new LinkedList();
 
-        studentList.add("Kelly Gabot");
-        studentList.add("Jonela Rodulfo");
-        studentList.add("Cesar Jondiz III");
-        studentList.add("Areisha Julliana Migrino");
-        studentList.add("Aslama Cabugatan");
-        studentList.add("Haring Paul Edward Tablizo Malakas");
+        studentList.add("Kelly");
+        studentList.add("Jonela");
+        studentList.add("Cesar");
+        studentList.add("Areisha");
+        studentList.add("Ash");
+        studentList.add("Paul");
 
-//        studentList.read();
+        studentList.readAll();
 
-        Scanner sc = new Scanner(System.in    );
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter Name: ");
         String search = sc.nextLine();
 

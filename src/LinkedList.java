@@ -19,10 +19,12 @@ public class LinkedList {
         size++;
     }
 
-    void read() {
+    void readAll() {
+        System.out.print("[ ");
         for (Node current = head; current != null; current = current.getNext()) {
-            System.out.println(current.getData());
+            System.out.print(current.getData() + " ");
         }
+        System.out.println("]");
     }
 
     void search(String name) {
